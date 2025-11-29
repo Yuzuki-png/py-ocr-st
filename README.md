@@ -34,11 +34,6 @@ uv run fastapi dev src/app.py
 
 ### デプロイ
 
-#### 主要ブランチに push すると、Github CI/CD により自動デプロイが行われる。
-
-- 本番環境 (`prod`)
-- ステージング環境 (`staging`)
-
 #### 手動デプロイ
 
 ```bash
